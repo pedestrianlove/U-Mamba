@@ -2,7 +2,7 @@
 
 #SBATCH --account=MST114546
 #SBATCH --partition=gp1d
-#SBATCH --job-name=setup-project-data-h100
+#SBATCH --job-name=setup-u-mamba
 #SBATCH --dependency=singleton
 #SBATCH --output=logs/%x-%j.out
 #SBATCH --error=logs/%x-%j.err
