@@ -12,7 +12,8 @@ ninja = "*"
 cmake = "*"
 gcc_linux-64 = "11.*"
 gxx_linux-64 = "11.*"
-cuda-toolkit = "12.8.*"
+cuda = "12.6.*"
+cuda-toolkit = ">=12.6.3,<13"
 setuptools = "<70"
 
 [pypi-options]
